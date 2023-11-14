@@ -1,6 +1,6 @@
 #include <windows.h>
 
-IDI_ICON1	ICON	DISCARDABLE	"E:\\BaiduSyncdisk\\Project\\Code\\eddy\\SerialPortHandheld\\SerialPortDemo\\images\\ico\\sp.ico"
+IDI_ICON1	ICON	DISCARDABLE	"D:\\BaiduSyncdisk\\Project\\Code\\eddy\\SerialPortHandheld\\SerialPortDemo\\images\\ico\\sp.ico"
 
 VS_VERSION_INFO VERSIONINFO
 	FILEVERSION 0,0,0,0
