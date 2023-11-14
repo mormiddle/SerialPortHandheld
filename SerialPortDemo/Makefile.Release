@@ -13,13 +13,13 @@ EQ            = =
 
 CC            = cl
 CXX           = cl
-DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_DEPRECATED_WARNINGS -DNDEBUG -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_CORE_LIB
+DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_DEPRECATED_WARNINGS -DNDEBUG -DQT_QML_DEBUG -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_CORE_LIB
 CFLAGS        = -nologo -Zc:wchar_t -FS -Zc:strictStrings -O2 -MD -W3 -w44456 -w44457 -w44458 $(DEFINES)
 CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc $(DEFINES)
 INCPATH       = -I. -I..\SlBase\cpp -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQuick -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQmlModels -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQml -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtNetwork -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtSerialPort -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore -Irelease -I/include -ID:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /OPT:REF /INCREMENTAL:NO /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"
-LIBS          = /LIBPATH:D:\BaiduSyncdisk\Project\Code\eddy\SerialPortHandheld\SlBase\release D:\BaiduSyncdisk\Project\Code\eddy\SerialPortHandheld\SlBase\release\SlBase.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quick.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupport.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModels.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Qml.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Network.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5SerialPort.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Core.lib release\SerialPortDemo_resource.res  D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmain.lib /LIBPATH:C:\openssl\lib /LIBPATH:C:\Utils\my_sql\mysql-5.7.25-winx64\lib /LIBPATH:C:\Utils\postgresql\pgsql\lib shell32.lib 
+LIBS          = /LIBPATH:E:\BaiduSyncdisk\Project\Code\eddy\SerialPortHandheld\SlBase\release E:\BaiduSyncdisk\Project\Code\eddy\SerialPortHandheld\SlBase\release\SlBase.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quick.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupport.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModels.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Qml.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Network.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5SerialPort.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Core.lib release\SerialPortDemo_resource.res  D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmain.lib /LIBPATH:C:\openssl\lib /LIBPATH:C:\Utils\my_sql\mysql-5.7.25-winx64\lib /LIBPATH:C:\Utils\postgresql\pgsql\lib shell32.lib 
 QMAKE         = D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmake.exe
 DEL_FILE      = del
 CHK_DIR_EXISTS= if not exist
@@ -55,48 +55,9 @@ SOURCES       = cpp\common\AppInfo.cpp \
 		cpp\common\MySerialport.cpp \
 		cpp\common\qcustomplot.cpp \
 		cpp\common\qmlplot.cpp \
-		cpp\main.cpp release\js_global_js.cpp \
-		release\js_zbase_js.cpp \
-		release\js_images_js.cpp \
-		release\qml_BottomMain_qml.cpp \
-		release\qml_MainPage_qml.cpp \
-		release\qml_RightMain_qml.cpp \
-		release\qml_LeftMain_qml.cpp \
-		release\qml_LoginPage_qml.cpp \
-		release\qml_MiddleMain_qml.cpp \
-		release\qml_TopMain_qml.cpp \
-		release\qml_main_qml.cpp \
-		release\qml_alert_error_qml.cpp \
-		release\qml_alert_null_qml.cpp \
-		release\qml_basic_AdjustTime_qml.cpp \
-		release\qml_basic_Updown_qml.cpp \
-		release\qml_basic_TextField_qml.cpp \
-		release\qml_basic_MenuRow_qml.cpp \
-		release\qml_basic_MenuTextField_qml.cpp \
-		release\qml_basic_MouseArea_qml.cpp \
-		release\qml_basic_BusyIndicator_qml.cpp \
-		release\qml_basic_Image_qml.cpp \
-		release\qml_basic_ButtonToolTip_qml.cpp \
-		release\qml_basic_Rectangle_qml.cpp \
-		release\qml_basic_MarkLine_qml.cpp \
-		release\qml_basic_MenuBox_qml.cpp \
-		release\qml_basic_Listview_qml.cpp \
-		release\qml_basic_Slider_qml.cpp \
-		release\qml_basic_Text_qml.cpp \
-		release\qml_basic_Label_qml.cpp \
-		release\qml_basic_Button_qml.cpp \
-		release\qml_basic_MenuButton_qml.cpp \
-		release\qml_basic_MenuColumn_qml.cpp \
-		release\qml_basic_RangeSlider_qml.cpp \
-		release\qml_basic_MarkRectangle_qml.cpp \
-		release\qml_basic_Dialog_qml.cpp \
-		release\qml_basic_ComboBox_qml.cpp \
-		release\qml_basic_MenuBlank_qml.cpp \
-		release\qml_basic_GroupBox_qml.cpp \
-		release\qml_basic_MenuBoxItem_qml.cpp \
-		release\qml_basic_CheckBox_qml.cpp \
-		release\qmlcache_loader.cpp \
-		release\qrc_image.cpp \
+		cpp\main.cpp release\qrc_image.cpp \
+		release\qrc_js.cpp \
+		release\qrc_qml.cpp \
 		release\moc_AppInfo.cpp \
 		release\moc_EnumParameter.cpp \
 		release\moc_MySerialport.cpp \
@@ -109,48 +70,9 @@ OBJECTS       = release\AppInfo.obj \
 		release\qcustomplot.obj \
 		release\qmlplot.obj \
 		release\main.obj \
-		release\js_global_js.obj \
-		release\js_zbase_js.obj \
-		release\js_images_js.obj \
-		release\qml_BottomMain_qml.obj \
-		release\qml_MainPage_qml.obj \
-		release\qml_RightMain_qml.obj \
-		release\qml_LeftMain_qml.obj \
-		release\qml_LoginPage_qml.obj \
-		release\qml_MiddleMain_qml.obj \
-		release\qml_TopMain_qml.obj \
-		release\qml_main_qml.obj \
-		release\qml_alert_error_qml.obj \
-		release\qml_alert_null_qml.obj \
-		release\qml_basic_AdjustTime_qml.obj \
-		release\qml_basic_Updown_qml.obj \
-		release\qml_basic_TextField_qml.obj \
-		release\qml_basic_MenuRow_qml.obj \
-		release\qml_basic_MenuTextField_qml.obj \
-		release\qml_basic_MouseArea_qml.obj \
-		release\qml_basic_BusyIndicator_qml.obj \
-		release\qml_basic_Image_qml.obj \
-		release\qml_basic_ButtonToolTip_qml.obj \
-		release\qml_basic_Rectangle_qml.obj \
-		release\qml_basic_MarkLine_qml.obj \
-		release\qml_basic_MenuBox_qml.obj \
-		release\qml_basic_Listview_qml.obj \
-		release\qml_basic_Slider_qml.obj \
-		release\qml_basic_Text_qml.obj \
-		release\qml_basic_Label_qml.obj \
-		release\qml_basic_Button_qml.obj \
-		release\qml_basic_MenuButton_qml.obj \
-		release\qml_basic_MenuColumn_qml.obj \
-		release\qml_basic_RangeSlider_qml.obj \
-		release\qml_basic_MarkRectangle_qml.obj \
-		release\qml_basic_Dialog_qml.obj \
-		release\qml_basic_ComboBox_qml.obj \
-		release\qml_basic_MenuBlank_qml.obj \
-		release\qml_basic_GroupBox_qml.obj \
-		release\qml_basic_MenuBoxItem_qml.obj \
-		release\qml_basic_CheckBox_qml.obj \
-		release\qmlcache_loader.obj \
 		release\qrc_image.obj \
+		release\qrc_js.obj \
+		release\qrc_qml.obj \
 		release\moc_AppInfo.obj \
 		release\moc_EnumParameter.obj \
 		release\moc_MySerialport.obj \
@@ -266,8 +188,7 @@ all: Makefile.Release  release\SerialPortDemo.exe
 
 release\SerialPortDemo.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quick.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupport.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModels.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Qml.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Network.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5SerialPort.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Core.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmain.lib $(OBJECTS) release\SerialPortDemo_resource.res
 	$(LINKER) $(LFLAGS) /MANIFEST:embed /OUT:$(DESTDIR_TARGET) @<<
-release\AppInfo.obj release\Globals.obj release\MySerialport.obj release\qcustomplot.obj release\qmlplot.obj release\main.obj release\js_global_js.obj release\js_zbase_js.obj release\js_images_js.obj release\qml_BottomMain_qml.obj release\qml_MainPage_qml.obj release\qml_RightMain_qml.obj release\qml_LeftMain_qml.obj release\qml_LoginPage_qml.obj release\qml_MiddleMain_qml.obj release\qml_TopMain_qml.obj release\qml_main_qml.obj release\qml_alert_error_qml.obj release\qml_alert_null_qml.obj release\qml_basic_AdjustTime_qml.obj release\qml_basic_Updown_qml.obj release\qml_basic_TextField_qml.obj release\qml_basic_MenuRow_qml.obj release\qml_basic_MenuTextField_qml.obj release\qml_basic_MouseArea_qml.obj release\qml_basic_BusyIndicator_qml.obj release\qml_basic_Image_qml.obj release\qml_basic_ButtonToolTip_qml.obj release\qml_basic_Rectangle_qml.obj release\qml_basic_MarkLine_qml.obj release\qml_basic_MenuBox_qml.obj release\qml_basic_Listview_qml.obj release\qml_basic_Slider_qml.obj
-release\qml_basic_Text_qml.obj release\qml_basic_Label_qml.obj release\qml_basic_Button_qml.obj release\qml_basic_MenuButton_qml.obj release\qml_basic_MenuColumn_qml.obj release\qml_basic_RangeSlider_qml.obj release\qml_basic_MarkRectangle_qml.obj release\qml_basic_Dialog_qml.obj release\qml_basic_ComboBox_qml.obj release\qml_basic_MenuBlank_qml.obj release\qml_basic_GroupBox_qml.obj release\qml_basic_MenuBoxItem_qml.obj release\qml_basic_CheckBox_qml.obj release\qmlcache_loader.obj release\qrc_image.obj release\moc_AppInfo.obj release\moc_EnumParameter.obj release\moc_MySerialport.obj release\moc_SwitchPage.obj release\moc_qcustomplot.obj release\moc_qmlplot.obj
+release\AppInfo.obj release\Globals.obj release\MySerialport.obj release\qcustomplot.obj release\qmlplot.obj release\main.obj release\qrc_image.obj release\qrc_js.obj release\qrc_qml.obj release\moc_AppInfo.obj release\moc_EnumParameter.obj release\moc_MySerialport.obj release\moc_SwitchPage.obj release\moc_qcustomplot.obj release\moc_qmlplot.obj
 $(LIBS)
 <<
 
@@ -275,15 +196,15 @@ release\SerialPortDemo_resource.res: SerialPortDemo_resource.rc
 	rc /NOLOGO $(DEFINES) -fo release\SerialPortDemo_resource.res SerialPortDemo_resource.rc
 
 qmake: FORCE
-	@$(QMAKE) -o Makefile.Release SerialPortDemo.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
+	@$(QMAKE) -o Makefile.Release SerialPortDemo.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 
 qmake_all: FORCE
 
 dist:
-	$(ZIP) SerialPortDemo.zip $(SOURCES) $(DIST) SerialPortDemo.pro D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\spec_pre.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\angle.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\windows-desktop.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\windows_vulkan_sdk.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\windows-vulkan.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\msvc-desktop.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\qconfig.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3danimation.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3danimation_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dcore.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dcore_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dextras.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dextras_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dinput.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dinput_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dlogic.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dlogic_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquick.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquick_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickanimation.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickextras.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickextras_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickinput.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickinput_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickrender.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickrender_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickscene2d.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3drender.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3drender_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_accessibility_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axbase.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axbase_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axcontainer.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axcontainer_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axserver.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axserver_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_bluetooth.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_bluetooth_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_bootstrap_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_charts.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_charts_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_concurrent.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_concurrent_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_core.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_core_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_dbus.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_dbus_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_designer.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_designer_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_designercomponents_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_edid_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_egl_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_eventdispatcher_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_fb_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_fontdatabase_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gamepad.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gamepad_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gui.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gui_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_help.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_help_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_location.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_location_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimedia.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimedia_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimediawidgets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_network.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_network_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_nfc.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_nfc_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_opengl.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_opengl_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_openglextensions.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_openglextensions_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_packetprotocol_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_platformcompositor_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioning.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioning_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioningquick.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioningquick_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_printsupport.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_printsupport_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qml.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qml_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmldebug_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmldevtools_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlmodels.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlmodels_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmltest.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmltest_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlworkerscript.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickcontrols2.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickparticles_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickshapes_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quicktemplates2.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickwidgets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickwidgets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_remoteobjects.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_remoteobjects_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_repparser.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_repparser_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_scxml.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_scxml_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sensors.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sensors_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialbus.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialbus_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialport.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialport_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sql.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sql_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_svg.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_svg_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_testlib.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_testlib_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_texttospeech.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_texttospeech_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_theme_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_uiplugin.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_uitools.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_uitools_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_vulkan_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webchannel.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webchannel_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_websockets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_websockets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webview.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webview_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_widgets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_widgets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_windowsuiautomation_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_winextras.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_winextras_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xml.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xml_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xmlpatterns.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xmlpatterns_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_zlib_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qt_functions.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qt_config.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\win32-msvc\qmake.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\spec_post.prf ..\.qmake.stash D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\exclusive_builds.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\msvc-version.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\toolchain.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\default_pre.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\default_pre.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\resolve_config.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\exclusive_builds_post.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\default_post.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\build_pass.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\resources_functions.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qtquickcompiler.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\precompile_header.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\warn_on.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qt.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\resources.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\moc.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\opengl.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\uic.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qmake_use.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\file_copies.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\windows.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\testcase_targets.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\exceptions.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\yacc.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\lex.prf SerialPortDemo.pro qrc\image.qrc D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quick.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupport.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModels.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Qml.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Network.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5SerialPort.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Core.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmain.prl ts\DicomViewer_zh_CN.ts ts\DicomViewer_zh_CN.ts js\global.js js\zbase.js js\images.js qml\BottomMain.qml qml\MainPage.qml qml\RightMain.qml qml\LeftMain.qml qml\LoginPage.qml qml\MiddleMain.qml qml\TopMain.qml qml\main.qml qml\alert\error.qml qml\alert\null.qml qml\basic\AdjustTime.qml qml\basic\Updown.qml qml\basic\TextField.qml qml\basic\MenuRow.qml qml\basic\MenuTextField.qml qml\basic\MouseArea.qml qml\basic\BusyIndicator.qml qml\basic\Image.qml qml\basic\ButtonToolTip.qml qml\basic\Rectangle.qml qml\basic\MarkLine.qml qml\basic\MenuBox.qml qml\basic\Listview.qml qml\basic\Slider.qml qml\basic\Text.qml qml\basic\Label.qml qml\basic\Button.qml qml\basic\MenuButton.qml qml\basic\MenuColumn.qml qml\basic\RangeSlider.qml qml\basic\MarkRectangle.qml qml\basic\Dialog.qml qml\basic\ComboBox.qml qml\basic\MenuBlank.qml qml\basic\GroupBox.qml qml\basic\MenuBoxItem.qml qml\basic\CheckBox.qml qrc\js.qrc qrc\qml.qrc  qrc\image.qrc D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\data\dummy.cpp cpp\common\AppInfo.h cpp\common\EnumParameter.h cpp\common\Globals.h cpp\common\MySerialport.h cpp\common\SwitchPage.h cpp\common\qcustomplot.h cpp\common\qmlplot.h  cpp\common\AppInfo.cpp cpp\common\Globals.cpp cpp\common\MySerialport.cpp cpp\common\qcustomplot.cpp cpp\common\qmlplot.cpp cpp\main.cpp     
+	$(ZIP) SerialPortDemo.zip $(SOURCES) $(DIST) SerialPortDemo.pro D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\spec_pre.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\angle.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\windows-desktop.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\windows_vulkan_sdk.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\windows-vulkan.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\msvc-desktop.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\qconfig.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3danimation.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3danimation_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dcore.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dcore_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dextras.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dextras_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dinput.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dinput_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dlogic.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dlogic_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquick.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquick_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickanimation.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickanimation_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickextras.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickextras_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickinput.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickinput_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickrender.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickrender_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickscene2d.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3dquickscene2d_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3drender.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_3drender_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_accessibility_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axbase.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axbase_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axcontainer.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axcontainer_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axserver.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_axserver_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_bluetooth.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_bluetooth_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_bootstrap_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_charts.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_charts_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_concurrent.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_concurrent_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_core.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_core_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_dbus.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_dbus_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_designer.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_designer_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_designercomponents_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_edid_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_egl_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_eventdispatcher_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_fb_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_fontdatabase_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gamepad.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gamepad_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gui.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_gui_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_help.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_help_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_location.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_location_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimedia.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimedia_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimediawidgets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_multimediawidgets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_network.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_network_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_nfc.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_nfc_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_opengl.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_opengl_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_openglextensions.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_openglextensions_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_packetprotocol_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_platformcompositor_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioning.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioning_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioningquick.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_positioningquick_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_printsupport.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_printsupport_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qml.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qml_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmldebug_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmldevtools_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlmodels.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlmodels_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmltest.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmltest_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlworkerscript.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_qtmultimediaquicktools_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3d.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3d_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3dassetimport.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3dassetimport_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3drender.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3drender_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3druntimerender.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3druntimerender_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3dutils.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick3dutils_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quick_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickcontrols2.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickparticles_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickshapes_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quicktemplates2.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickwidgets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_quickwidgets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_remoteobjects.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_remoteobjects_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_repparser.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_repparser_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_scxml.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_scxml_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sensors.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sensors_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialbus.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialbus_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialport.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_serialport_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sql.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_sql_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_svg.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_svg_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_testlib.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_testlib_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_texttospeech.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_texttospeech_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_theme_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_uiplugin.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_uitools.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_uitools_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_vulkan_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webchannel.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webchannel_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_websockets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_websockets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webview.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_webview_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_widgets.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_widgets_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_windowsuiautomation_support_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_winextras.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_winextras_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xml.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xml_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xmlpatterns.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_xmlpatterns_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\modules\qt_lib_zlib_private.pri D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qt_functions.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qt_config.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\win32-msvc\qmake.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\spec_post.prf ..\.qmake.stash D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\exclusive_builds.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\common\msvc-version.conf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\toolchain.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\default_pre.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\default_pre.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\resolve_config.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\exclusive_builds_post.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\default_post.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\build_pass.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qml_debug.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\precompile_header.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\warn_on.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qt.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\resources_functions.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\resources.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\moc.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\opengl.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\uic.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\qmake_use.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\file_copies.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\win32\windows.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\testcase_targets.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\exceptions.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\yacc.prf D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\lex.prf SerialPortDemo.pro qrc\image.qrc qrc\js.qrc qrc\qml.qrc D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Quick.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5PrintSupport.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5QmlModels.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Qml.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Network.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5SerialPort.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Core.prl D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmain.prl ts\DicomViewer_zh_CN.ts ts\DicomViewer_zh_CN.ts  qrc\image.qrc qrc\js.qrc qrc\qml.qrc D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\mkspecs\features\data\dummy.cpp cpp\common\AppInfo.h cpp\common\EnumParameter.h cpp\common\Globals.h cpp\common\MySerialport.h cpp\common\SwitchPage.h cpp\common\qcustomplot.h cpp\common\qmlplot.h  cpp\common\AppInfo.cpp cpp\common\Globals.cpp cpp\common\MySerialport.cpp cpp\common\qcustomplot.cpp cpp\common\qmlplot.cpp cpp\main.cpp     
 
 clean: compiler_clean 
-	-$(DEL_FILE) release\AppInfo.obj release\Globals.obj release\MySerialport.obj release\qcustomplot.obj release\qmlplot.obj release\main.obj release\js_global_js.obj release\js_zbase_js.obj release\js_images_js.obj release\qml_BottomMain_qml.obj release\qml_MainPage_qml.obj release\qml_RightMain_qml.obj release\qml_LeftMain_qml.obj release\qml_LoginPage_qml.obj release\qml_MiddleMain_qml.obj release\qml_TopMain_qml.obj release\qml_main_qml.obj release\qml_alert_error_qml.obj release\qml_alert_null_qml.obj release\qml_basic_AdjustTime_qml.obj release\qml_basic_Updown_qml.obj release\qml_basic_TextField_qml.obj release\qml_basic_MenuRow_qml.obj release\qml_basic_MenuTextField_qml.obj release\qml_basic_MouseArea_qml.obj release\qml_basic_BusyIndicator_qml.obj release\qml_basic_Image_qml.obj release\qml_basic_ButtonToolTip_qml.obj release\qml_basic_Rectangle_qml.obj release\qml_basic_MarkLine_qml.obj release\qml_basic_MenuBox_qml.obj release\qml_basic_Listview_qml.obj release\qml_basic_Slider_qml.obj release\qml_basic_Text_qml.obj release\qml_basic_Label_qml.obj release\qml_basic_Button_qml.obj release\qml_basic_MenuButton_qml.obj release\qml_basic_MenuColumn_qml.obj release\qml_basic_RangeSlider_qml.obj release\qml_basic_MarkRectangle_qml.obj release\qml_basic_Dialog_qml.obj release\qml_basic_ComboBox_qml.obj release\qml_basic_MenuBlank_qml.obj release\qml_basic_GroupBox_qml.obj release\qml_basic_MenuBoxItem_qml.obj release\qml_basic_CheckBox_qml.obj release\qmlcache_loader.obj release\qrc_image.obj release\moc_AppInfo.obj release\moc_EnumParameter.obj release\moc_MySerialport.obj release\moc_SwitchPage.obj release\moc_qcustomplot.obj release\moc_qmlplot.obj
+	-$(DEL_FILE) release\AppInfo.obj release\Globals.obj release\MySerialport.obj release\qcustomplot.obj release\qmlplot.obj release\main.obj release\qrc_image.obj release\qrc_js.obj release\qrc_qml.obj release\moc_AppInfo.obj release\moc_EnumParameter.obj release\moc_MySerialport.obj release\moc_SwitchPage.obj release\moc_qcustomplot.obj release\moc_qmlplot.obj
 	-$(DEL_FILE) release\SerialPortDemo_resource.res
 
 distclean: clean 
@@ -298,141 +219,11 @@ check: first
 
 benchmark: first
 
-compiler_qmlcache_make_all: release\js_global_js.cpp release\js_zbase_js.cpp release\js_images_js.cpp release\qml_BottomMain_qml.cpp release\qml_MainPage_qml.cpp release\qml_RightMain_qml.cpp release\qml_LeftMain_qml.cpp release\qml_LoginPage_qml.cpp release\qml_MiddleMain_qml.cpp release\qml_TopMain_qml.cpp release\qml_main_qml.cpp release\qml_alert_error_qml.cpp release\qml_alert_null_qml.cpp release\qml_basic_AdjustTime_qml.cpp release\qml_basic_Updown_qml.cpp release\qml_basic_TextField_qml.cpp release\qml_basic_MenuRow_qml.cpp release\qml_basic_MenuTextField_qml.cpp release\qml_basic_MouseArea_qml.cpp release\qml_basic_BusyIndicator_qml.cpp release\qml_basic_Image_qml.cpp release\qml_basic_ButtonToolTip_qml.cpp release\qml_basic_Rectangle_qml.cpp release\qml_basic_MarkLine_qml.cpp release\qml_basic_MenuBox_qml.cpp release\qml_basic_Listview_qml.cpp release\qml_basic_Slider_qml.cpp release\qml_basic_Text_qml.cpp release\qml_basic_Label_qml.cpp release\qml_basic_Button_qml.cpp release\qml_basic_MenuButton_qml.cpp release\qml_basic_MenuColumn_qml.cpp release\qml_basic_RangeSlider_qml.cpp release\qml_basic_MarkRectangle_qml.cpp release\qml_basic_Dialog_qml.cpp release\qml_basic_ComboBox_qml.cpp release\qml_basic_MenuBlank_qml.cpp release\qml_basic_GroupBox_qml.cpp release\qml_basic_MenuBoxItem_qml.cpp release\qml_basic_CheckBox_qml.cpp
-compiler_qmlcache_clean:
-	-$(DEL_FILE) release\js_global_js.cpp release\js_zbase_js.cpp release\js_images_js.cpp release\qml_BottomMain_qml.cpp release\qml_MainPage_qml.cpp release\qml_RightMain_qml.cpp release\qml_LeftMain_qml.cpp release\qml_LoginPage_qml.cpp release\qml_MiddleMain_qml.cpp release\qml_TopMain_qml.cpp release\qml_main_qml.cpp release\qml_alert_error_qml.cpp release\qml_alert_null_qml.cpp release\qml_basic_AdjustTime_qml.cpp release\qml_basic_Updown_qml.cpp release\qml_basic_TextField_qml.cpp release\qml_basic_MenuRow_qml.cpp release\qml_basic_MenuTextField_qml.cpp release\qml_basic_MouseArea_qml.cpp release\qml_basic_BusyIndicator_qml.cpp release\qml_basic_Image_qml.cpp release\qml_basic_ButtonToolTip_qml.cpp release\qml_basic_Rectangle_qml.cpp release\qml_basic_MarkLine_qml.cpp release\qml_basic_MenuBox_qml.cpp release\qml_basic_Listview_qml.cpp release\qml_basic_Slider_qml.cpp release\qml_basic_Text_qml.cpp release\qml_basic_Label_qml.cpp release\qml_basic_Button_qml.cpp release\qml_basic_MenuButton_qml.cpp release\qml_basic_MenuColumn_qml.cpp release\qml_basic_RangeSlider_qml.cpp release\qml_basic_MarkRectangle_qml.cpp release\qml_basic_Dialog_qml.cpp release\qml_basic_ComboBox_qml.cpp release\qml_basic_MenuBlank_qml.cpp release\qml_basic_GroupBox_qml.cpp release\qml_basic_MenuBoxItem_qml.cpp release\qml_basic_CheckBox_qml.cpp
-release\js_global_js.cpp: js\global.js
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\js_global_js.cpp js\global.js
-
-release\js_zbase_js.cpp: js\zbase.js
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\js_zbase_js.cpp js\zbase.js
-
-release\js_images_js.cpp: js\images.js
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\js_images_js.cpp js\images.js
-
-release\qml_BottomMain_qml.cpp: qml\BottomMain.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_BottomMain_qml.cpp qml\BottomMain.qml
-
-release\qml_MainPage_qml.cpp: qml\MainPage.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_MainPage_qml.cpp qml\MainPage.qml
-
-release\qml_RightMain_qml.cpp: qml\RightMain.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_RightMain_qml.cpp qml\RightMain.qml
-
-release\qml_LeftMain_qml.cpp: qml\LeftMain.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_LeftMain_qml.cpp qml\LeftMain.qml
-
-release\qml_LoginPage_qml.cpp: qml\LoginPage.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_LoginPage_qml.cpp qml\LoginPage.qml
-
-release\qml_MiddleMain_qml.cpp: qml\MiddleMain.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_MiddleMain_qml.cpp qml\MiddleMain.qml
-
-release\qml_TopMain_qml.cpp: qml\TopMain.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_TopMain_qml.cpp qml\TopMain.qml
-
-release\qml_main_qml.cpp: qml\main.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_main_qml.cpp qml\main.qml
-
-release\qml_alert_error_qml.cpp: qml\alert\error.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_alert_error_qml.cpp qml\alert\error.qml
-
-release\qml_alert_null_qml.cpp: qml\alert\null.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_alert_null_qml.cpp qml\alert\null.qml
-
-release\qml_basic_AdjustTime_qml.cpp: qml\basic\AdjustTime.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_AdjustTime_qml.cpp qml\basic\AdjustTime.qml
-
-release\qml_basic_Updown_qml.cpp: qml\basic\Updown.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Updown_qml.cpp qml\basic\Updown.qml
-
-release\qml_basic_TextField_qml.cpp: qml\basic\TextField.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_TextField_qml.cpp qml\basic\TextField.qml
-
-release\qml_basic_MenuRow_qml.cpp: qml\basic\MenuRow.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MenuRow_qml.cpp qml\basic\MenuRow.qml
-
-release\qml_basic_MenuTextField_qml.cpp: qml\basic\MenuTextField.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MenuTextField_qml.cpp qml\basic\MenuTextField.qml
-
-release\qml_basic_MouseArea_qml.cpp: qml\basic\MouseArea.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MouseArea_qml.cpp qml\basic\MouseArea.qml
-
-release\qml_basic_BusyIndicator_qml.cpp: qml\basic\BusyIndicator.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_BusyIndicator_qml.cpp qml\basic\BusyIndicator.qml
-
-release\qml_basic_Image_qml.cpp: qml\basic\Image.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Image_qml.cpp qml\basic\Image.qml
-
-release\qml_basic_ButtonToolTip_qml.cpp: qml\basic\ButtonToolTip.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_ButtonToolTip_qml.cpp qml\basic\ButtonToolTip.qml
-
-release\qml_basic_Rectangle_qml.cpp: qml\basic\Rectangle.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Rectangle_qml.cpp qml\basic\Rectangle.qml
-
-release\qml_basic_MarkLine_qml.cpp: qml\basic\MarkLine.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MarkLine_qml.cpp qml\basic\MarkLine.qml
-
-release\qml_basic_MenuBox_qml.cpp: qml\basic\MenuBox.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MenuBox_qml.cpp qml\basic\MenuBox.qml
-
-release\qml_basic_Listview_qml.cpp: qml\basic\Listview.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Listview_qml.cpp qml\basic\Listview.qml
-
-release\qml_basic_Slider_qml.cpp: qml\basic\Slider.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Slider_qml.cpp qml\basic\Slider.qml
-
-release\qml_basic_Text_qml.cpp: qml\basic\Text.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Text_qml.cpp qml\basic\Text.qml
-
-release\qml_basic_Label_qml.cpp: qml\basic\Label.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Label_qml.cpp qml\basic\Label.qml
-
-release\qml_basic_Button_qml.cpp: qml\basic\Button.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Button_qml.cpp qml\basic\Button.qml
-
-release\qml_basic_MenuButton_qml.cpp: qml\basic\MenuButton.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MenuButton_qml.cpp qml\basic\MenuButton.qml
-
-release\qml_basic_MenuColumn_qml.cpp: qml\basic\MenuColumn.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MenuColumn_qml.cpp qml\basic\MenuColumn.qml
-
-release\qml_basic_RangeSlider_qml.cpp: qml\basic\RangeSlider.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_RangeSlider_qml.cpp qml\basic\RangeSlider.qml
-
-release\qml_basic_MarkRectangle_qml.cpp: qml\basic\MarkRectangle.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MarkRectangle_qml.cpp qml\basic\MarkRectangle.qml
-
-release\qml_basic_Dialog_qml.cpp: qml\basic\Dialog.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_Dialog_qml.cpp qml\basic\Dialog.qml
-
-release\qml_basic_ComboBox_qml.cpp: qml\basic\ComboBox.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_ComboBox_qml.cpp qml\basic\ComboBox.qml
-
-release\qml_basic_MenuBlank_qml.cpp: qml\basic\MenuBlank.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MenuBlank_qml.cpp qml\basic\MenuBlank.qml
-
-release\qml_basic_GroupBox_qml.cpp: qml\basic\GroupBox.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_GroupBox_qml.cpp qml\basic\GroupBox.qml
-
-release\qml_basic_MenuBoxItem_qml.cpp: qml\basic\MenuBoxItem.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_MenuBoxItem_qml.cpp qml\basic\MenuBoxItem.qml
-
-release\qml_basic_CheckBox_qml.cpp: qml\basic\CheckBox.qml
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qml_basic_CheckBox_qml.cpp qml\basic\CheckBox.qml
-
-compiler_qmlcache_loader_make_all: release\qmlcache_loader.cpp
-compiler_qmlcache_loader_clean:
-	-$(DEL_FILE) release\qmlcache_loader.cpp
-release\qmlcache_loader.cpp: qrc\js.qrc \
-		qrc\qml.qrc 
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\qmlcachegen.exe --resource-file-mapping=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/js.qrc --resource-file-mapping=D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/qrc/qml.qrc -o release\qmlcache_loader.cpp qrc\js.qrc qrc\qml.qrc
-
 compiler_no_pch_compiler_make_all:
 compiler_no_pch_compiler_clean:
-compiler_rcc_make_all: release\qrc_image.cpp
+compiler_rcc_make_all: release\qrc_image.cpp release\qrc_js.cpp release\qrc_qml.cpp
 compiler_rcc_clean:
-	-$(DEL_FILE) release\qrc_image.cpp
+	-$(DEL_FILE) release\qrc_image.cpp release\qrc_js.cpp release\qrc_qml.cpp
 release\qrc_image.cpp: qrc\image.qrc \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\rcc.exe \
 		images\menu\menu_video.png \
@@ -537,6 +328,54 @@ release\qrc_image.cpp: qrc\image.qrc \
 		images\car\car_top.png
 	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\rcc.exe -name image qrc\image.qrc -o release\qrc_image.cpp
 
+release\qrc_js.cpp: qrc\js.qrc \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\rcc.exe \
+		js\global.js \
+		js\zbase.js \
+		js\images.js
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\rcc.exe -name js qrc\js.qrc -o release\qrc_js.cpp
+
+release\qrc_qml.cpp: qrc\qml.qrc \
+		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\rcc.exe \
+		qml\BottomMain.qml \
+		qml\MainPage.qml \
+		qml\RightMain.qml \
+		qml\LeftMain.qml \
+		qml\LoginPage.qml \
+		qml\MiddleMain.qml \
+		qml\TopMain.qml \
+		qml\main.qml \
+		qml\alert\error.qml \
+		qml\alert\null.qml \
+		qml\basic\AdjustTime.qml \
+		qml\basic\Updown.qml \
+		qml\basic\TextField.qml \
+		qml\basic\MenuRow.qml \
+		qml\basic\MenuTextField.qml \
+		qml\basic\MouseArea.qml \
+		qml\basic\BusyIndicator.qml \
+		qml\basic\Image.qml \
+		qml\basic\ButtonToolTip.qml \
+		qml\basic\Rectangle.qml \
+		qml\basic\MarkLine.qml \
+		qml\basic\MenuBox.qml \
+		qml\basic\Listview.qml \
+		qml\basic\Slider.qml \
+		qml\basic\Text.qml \
+		qml\basic\Label.qml \
+		qml\basic\Button.qml \
+		qml\basic\MenuButton.qml \
+		qml\basic\MenuColumn.qml \
+		qml\basic\RangeSlider.qml \
+		qml\basic\MarkRectangle.qml \
+		qml\basic\Dialog.qml \
+		qml\basic\ComboBox.qml \
+		qml\basic\MenuBlank.qml \
+		qml\basic\GroupBox.qml \
+		qml\basic\MenuBoxItem.qml \
+		qml\basic\CheckBox.qml
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\rcc.exe -name qml qrc\qml.qrc -o release\qrc_qml.cpp
+
 compiler_moc_predefs_make_all: release\moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) release\moc_predefs.h
@@ -602,7 +441,7 @@ release\moc_AppInfo.cpp: cpp\common\AppInfo.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qobject_impl.h \
 		release\moc_predefs.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\AppInfo.h -o release\moc_AppInfo.cpp
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\AppInfo.h -o release\moc_AppInfo.cpp
 
 release\moc_EnumParameter.cpp: cpp\common\EnumParameter.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
@@ -660,7 +499,7 @@ release\moc_EnumParameter.cpp: cpp\common\EnumParameter.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qobject_impl.h \
 		release\moc_predefs.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\EnumParameter.h -o release\moc_EnumParameter.cpp
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\EnumParameter.h -o release\moc_EnumParameter.cpp
 
 release\moc_MySerialport.cpp: cpp\common\MySerialport.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQuick\QtQuick \
@@ -1146,7 +985,7 @@ release\moc_MySerialport.cpp: cpp\common\MySerialport.h \
 		cpp\common\Globals.h \
 		release\moc_predefs.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\MySerialport.h -o release\moc_MySerialport.cpp
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\MySerialport.h -o release\moc_MySerialport.cpp
 
 release\moc_SwitchPage.cpp: cpp\common\SwitchPage.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QObject \
@@ -1205,7 +1044,7 @@ release\moc_SwitchPage.cpp: cpp\common\SwitchPage.h \
 		cpp\common\AppInfo.h \
 		release\moc_predefs.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\SwitchPage.h -o release\moc_SwitchPage.cpp
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\SwitchPage.h -o release\moc_SwitchPage.cpp
 
 release\moc_qcustomplot.cpp: cpp\common\qcustomplot.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\qglobal.h \
@@ -1718,7 +1557,7 @@ release\moc_qcustomplot.cpp: cpp\common\qcustomplot.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtPrintSupport\qtprintsupportversion.h \
 		release\moc_predefs.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\qcustomplot.h -o release\moc_qcustomplot.cpp
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\qcustomplot.h -o release\moc_qcustomplot.cpp
 
 release\moc_qmlplot.cpp: cpp\common\qmlplot.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtQuick\QtQuick \
@@ -2368,7 +2207,7 @@ release\moc_qmlplot.cpp: cpp\common\qmlplot.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\QMessageBox \
 		release\moc_predefs.h \
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe
-	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -ID:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\qmlplot.h -o release\moc_qmlplot.cpp
+	D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/mkspecs/win32-msvc -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo -IE:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SlBase/cpp -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQuick -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtPrintSupport -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQmlModels -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtQml -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtSerialPort -ID:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include" -I"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\cppwinrt" cpp\common\qmlplot.h -o release\moc_qmlplot.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -2382,7 +2221,7 @@ compiler_yacc_impl_make_all:
 compiler_yacc_impl_clean:
 compiler_lex_make_all:
 compiler_lex_clean:
-compiler_clean: compiler_qmlcache_clean compiler_qmlcache_loader_clean compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_header_clean 
+compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_header_clean 
 
 
 
@@ -4826,89 +4665,11 @@ release\main.obj: cpp\main.cpp D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui\Q
 		D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtCore\QSettings \
 		..\SlBase\cpp\SlFile.h
 
-release\js_global_js.obj: release\js_global_js.cpp 
-
-release\js_zbase_js.obj: release\js_zbase_js.cpp 
-
-release\js_images_js.obj: release\js_images_js.cpp 
-
-release\qml_BottomMain_qml.obj: release\qml_BottomMain_qml.cpp 
-
-release\qml_MainPage_qml.obj: release\qml_MainPage_qml.cpp 
-
-release\qml_RightMain_qml.obj: release\qml_RightMain_qml.cpp 
-
-release\qml_LeftMain_qml.obj: release\qml_LeftMain_qml.cpp 
-
-release\qml_LoginPage_qml.obj: release\qml_LoginPage_qml.cpp 
-
-release\qml_MiddleMain_qml.obj: release\qml_MiddleMain_qml.cpp 
-
-release\qml_TopMain_qml.obj: release\qml_TopMain_qml.cpp 
-
-release\qml_main_qml.obj: release\qml_main_qml.cpp 
-
-release\qml_alert_error_qml.obj: release\qml_alert_error_qml.cpp 
-
-release\qml_alert_null_qml.obj: release\qml_alert_null_qml.cpp 
-
-release\qml_basic_AdjustTime_qml.obj: release\qml_basic_AdjustTime_qml.cpp 
-
-release\qml_basic_Updown_qml.obj: release\qml_basic_Updown_qml.cpp 
-
-release\qml_basic_TextField_qml.obj: release\qml_basic_TextField_qml.cpp 
-
-release\qml_basic_MenuRow_qml.obj: release\qml_basic_MenuRow_qml.cpp 
-
-release\qml_basic_MenuTextField_qml.obj: release\qml_basic_MenuTextField_qml.cpp 
-
-release\qml_basic_MouseArea_qml.obj: release\qml_basic_MouseArea_qml.cpp 
-
-release\qml_basic_BusyIndicator_qml.obj: release\qml_basic_BusyIndicator_qml.cpp 
-
-release\qml_basic_Image_qml.obj: release\qml_basic_Image_qml.cpp 
-
-release\qml_basic_ButtonToolTip_qml.obj: release\qml_basic_ButtonToolTip_qml.cpp 
-
-release\qml_basic_Rectangle_qml.obj: release\qml_basic_Rectangle_qml.cpp 
-
-release\qml_basic_MarkLine_qml.obj: release\qml_basic_MarkLine_qml.cpp 
-
-release\qml_basic_MenuBox_qml.obj: release\qml_basic_MenuBox_qml.cpp 
-
-release\qml_basic_Listview_qml.obj: release\qml_basic_Listview_qml.cpp 
-
-release\qml_basic_Slider_qml.obj: release\qml_basic_Slider_qml.cpp 
-
-release\qml_basic_Text_qml.obj: release\qml_basic_Text_qml.cpp 
-
-release\qml_basic_Label_qml.obj: release\qml_basic_Label_qml.cpp 
-
-release\qml_basic_Button_qml.obj: release\qml_basic_Button_qml.cpp 
-
-release\qml_basic_MenuButton_qml.obj: release\qml_basic_MenuButton_qml.cpp 
-
-release\qml_basic_MenuColumn_qml.obj: release\qml_basic_MenuColumn_qml.cpp 
-
-release\qml_basic_RangeSlider_qml.obj: release\qml_basic_RangeSlider_qml.cpp 
-
-release\qml_basic_MarkRectangle_qml.obj: release\qml_basic_MarkRectangle_qml.cpp 
-
-release\qml_basic_Dialog_qml.obj: release\qml_basic_Dialog_qml.cpp 
-
-release\qml_basic_ComboBox_qml.obj: release\qml_basic_ComboBox_qml.cpp 
-
-release\qml_basic_MenuBlank_qml.obj: release\qml_basic_MenuBlank_qml.cpp 
-
-release\qml_basic_GroupBox_qml.obj: release\qml_basic_GroupBox_qml.cpp 
-
-release\qml_basic_MenuBoxItem_qml.obj: release\qml_basic_MenuBoxItem_qml.cpp 
-
-release\qml_basic_CheckBox_qml.obj: release\qml_basic_CheckBox_qml.cpp 
-
-release\qmlcache_loader.obj: release\qmlcache_loader.cpp 
-
 release\qrc_image.obj: release\qrc_image.cpp 
+
+release\qrc_js.obj: release\qrc_js.cpp 
+
+release\qrc_qml.obj: release\qrc_qml.cpp 
 
 release\moc_AppInfo.obj: release\moc_AppInfo.cpp 
 

@@ -179,6 +179,9 @@ void CustomPlotItem::upAisleData()
     if( t < checkedData.count()  )
     {
         UImag = checkedData[t][m_aisle];
+        if (abs(UImag) > 35) {
+            UImag = 0;
+        }
 
         //UReal = checkedDataReal[t][m_aisle];
 
@@ -197,9 +200,9 @@ void CustomPlotItem::upAisleData()
 
 
         if( UImag > maxValue )
-            maxValue = UImag;
+            maxValue = UImag + 20;
         if( UImag < minValue )
-            minValue = UImag;
+            minValue = UImag - 20 ;
         getPlot()->graph(0)->addData(t, UImag);
         //getPlot()->graph(1)->addData(t, UReal);
         t++;
