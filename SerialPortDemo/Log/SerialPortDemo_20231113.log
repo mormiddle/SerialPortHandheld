@@ -1,0 +1,457 @@
+09:25:09.837 (0x5c54) [info ]
+09:25:09.837 (0x5c54) [info ] ----- App init ------
+09:25:09.838 (0x5c54) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+09:25:09.838 (0x5c54) [info ] Exe file: D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/SerialPortDemo.exe
+09:25:09.838 (0x5c54) [info ] App path: D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo
+09:25:09.839 (0x5c54) [info ] Check chinese support: 012汉字abc
+09:25:09.839 (0x5c54) [info ] ----- msAppInit: 256570113.478000, 07:07:29.230921113
+09:25:09.839 (0x5c54) [info ] [trace] --- FuncEntry
+09:25:09.839 (0x5c54) [info ] [trace]012汉字abc 
+09:25:09.839 (0x5c54) [info ] qInfo
+09:25:09.839 (0x5c54) [info ] qDebug
+09:25:09.839 (0x5c54) [info ] qWanging
+09:25:09.840 (0x5c54) [info ] QCritical
+09:25:09.840 (0x5c54) [info ] call getMs() 1000 times, 0.032900 ms
+09:25:09.846 (0x5c54) [info ] 1-1
+09:25:09.847 (0x5c54) [info ] 1-2
+09:25:09.847 (0x5c54) [info ] 2-1,����
+09:25:09.847 (0x5c54) [info ] 2-2,����
+09:25:09.847 (0x5c54) [info ] 1
+09:25:09.847 (0x5c54) [info ] 12345678901234
+09:25:09.847 (0x5c54) [info ] 12345679020032.0000000000000000
+09:25:09.847 (0x5c54) [info ] 12345678901234567168.00000000000000000000000000000000
+09:25:09.854 (0x5c54) [debug] SlBase::add( 3 + 4 ) = 7
+09:25:09.854 (0x5c54) [debug] SlBase::getTime() = 2023-11-13 09:25:09.854
+09:25:09.854 (0x5c54) [info ] [trace] --- FuncExit, 15.1073 ms
+09:25:10.451 (0x5c54) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+09:25:10.589 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.590 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.590 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.590 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.590 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.590 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.590 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.590 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.590 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.591 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.591 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.591 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.591 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.591 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.591 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.591 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.591 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.591 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.592 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.592 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.592 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.592 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.592 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.592 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.593 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.593 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.593 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.593 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.593 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.593 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.593 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.593 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.593 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.594 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.594 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.594 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.594 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.594 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.594 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.594 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.595 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.595 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.595 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.595 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.595 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.595 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.595 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.595 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.596 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.596 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.596 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.596 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.596 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.596 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.596 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.596 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.596 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.597 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.597 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.597 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.597 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.597 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.597 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.598 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.598 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.598 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.598 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.598 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.598 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.598 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.598 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.598 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.599 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.599 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.599 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.599 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.599 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.599 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.599 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.600 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.600 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.600 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.600 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.600 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.600 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.600 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.600 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.600 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.601 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.601 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.601 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.601 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.601 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.601 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.601 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.601 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.602 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.602 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.602 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.602 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.602 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.602 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.602 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.602 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.603 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.603 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.603 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.603 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.603 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.603 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.603 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.603 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.603 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.604 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.604 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.604 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.604 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.604 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.604 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.605 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.605 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.605 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.605 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.605 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.605 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.605 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.605 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.605 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.606 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.606 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.606 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.606 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.606 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.606 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.606 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.607 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.607 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.607 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.607 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.607 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.607 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.607 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.607 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.607 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.608 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.608 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.608 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.608 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.608 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.608 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.608 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.608 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.609 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.609 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.609 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.609 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.609 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.609 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.609 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.609 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.610 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.610 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.610 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.610 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.610 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.610 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.610 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.610 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.611 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.611 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.611 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.611 (0x5c54) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+09:25:10.611 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.611 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.611 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.612 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.612 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.612 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.612 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.612 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.612 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.612 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.612 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.612 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.613 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.613 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.613 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.613 (0x5c54) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+09:25:10.613 (0x5c54) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+09:25:10.613 (0x5c54) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+09:25:10.817 (0x5c54) [debug] Name :  "COM3"
+09:25:10.817 (0x5c54) [debug] Name :  "COM4"
+09:25:10.817 (0x5c54) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+09:25:10.829 (0x5c54) [debug] qml: [trace]activetrue
+09:25:43.644 (0x5c54) [info ] ----- msAppExit: 256603921.637300, 07:07:32.230951921
+09:25:43.644 (0x5c54) [info ] app running: 33808.159300, 00:00:03.30808
+09:25:43.644 (0x5c54) [info ] app return: 0
+09:25:43.645 (0x5c54) [info ] ----- App exit ------
+14:13:20.976 (0x4a80) [info ]
+14:13:20.976 (0x4a80) [info ] ----- App init ------
+14:13:20.976 (0x4a80) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:13:20.977 (0x4a80) [info ] Exe file: D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/release/SerialPortDemo.exe
+14:13:20.977 (0x4a80) [info ] App path: D:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo
+14:13:20.977 (0x4a80) [info ] Check chinese support: 012汉字abc
+14:13:20.977 (0x4a80) [info ] ----- msAppInit: 273861252.391400, 07:36:17.246484252
+14:13:20.977 (0x4a80) [info ] [trace] --- FuncEntry
+14:13:20.977 (0x4a80) [info ] [trace]012汉字abc 
+14:13:20.977 (0x4a80) [info ] qInfo
+14:13:20.978 (0x4a80) [info ] qDebug
+14:13:20.978 (0x4a80) [info ] qWanging
+14:13:20.978 (0x4a80) [info ] QCritical
+14:13:20.978 (0x4a80) [info ] call getMs() 1000 times, 0.019100 ms
+14:13:20.989 (0x4a80) [info ] 1-1
+14:13:20.989 (0x4a80) [info ] 1-2
+14:13:20.989 (0x4a80) [info ] 2-1,����
+14:13:20.989 (0x4a80) [info ] 2-2,����
+14:13:20.990 (0x4a80) [info ] 1
+14:13:20.990 (0x4a80) [info ] 12345678901234
+14:13:20.990 (0x4a80) [info ] 12345679020032.0000000000000000
+14:13:20.990 (0x4a80) [info ] 12345678901234567168.00000000000000000000000000000000
+14:13:20.996 (0x4a80) [debug] SlBase::add( 3 + 4 ) = 7
+14:13:20.996 (0x4a80) [debug] SlBase::getTime() = 2023-11-13 14:13:20.996
+14:13:20.996 (0x4a80) [info ] [trace] --- FuncExit, 19.4588 ms
+14:13:21.550 (0x4a80) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:13:21.561 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.561 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.561 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.562 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.562 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.562 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.562 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.562 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.562 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.562 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.562 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.563 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.563 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.563 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.563 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.563 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.563 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.563 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.563 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.564 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.564 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.565 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.565 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.565 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.565 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.566 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.566 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.566 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.566 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.566 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.566 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.566 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.566 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.567 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.567 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.567 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.567 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.567 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.567 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.567 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.568 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.568 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.568 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.568 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.568 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.568 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.568 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.568 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.569 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.569 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.569 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.569 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.569 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.569 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.569 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.569 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.570 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.570 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.570 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.570 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.570 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.570 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.571 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.571 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.571 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.571 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.571 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.571 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.571 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.571 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.571 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.571 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.571 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.572 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.572 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.572 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.572 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.572 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.572 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.573 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.573 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.573 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.573 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.573 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.573 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.573 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.573 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.574 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.574 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.574 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.574 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.574 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.574 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.574 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.574 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.574 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.575 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.575 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.575 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.575 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.575 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.575 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.575 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.576 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.576 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.576 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.576 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.576 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.576 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.576 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.576 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.576 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.577 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.577 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.577 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.577 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.577 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.577 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.578 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.578 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.578 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.578 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.578 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.578 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.578 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.578 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.578 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.579 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.579 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.579 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.579 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.579 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.579 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.579 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.580 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.580 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.580 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.580 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.580 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.580 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.580 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.581 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.581 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.581 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.581 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.581 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.581 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.581 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.581 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.581 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.582 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.582 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.582 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.583 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.583 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.583 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.583 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.583 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.583 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.583 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.583 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.584 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.584 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.584 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.584 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.584 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.584 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.584 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.584 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.584 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.584 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.584 (0x4a80) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+14:13:21.585 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.585 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.585 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.585 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.585 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.585 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.585 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.586 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.586 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.586 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.586 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.586 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.586 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.586 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.586 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.586 (0x4a80) [warn ] QPainter::begin: Paint device returned engine == 0, type: 2
+14:13:21.587 (0x4a80) [warn ] QPainter::setRenderHint: Painter must be active to set rendering hints
+14:13:21.587 (0x4a80) [debug] void __cdecl QCPLayer::drawToPaintBuffer(void) paint buffer returned inactive painter
+14:13:21.780 (0x4a80) [debug] Name :  "COM3"
+14:13:21.780 (0x4a80) [debug] Name :  "COM4"
+14:13:21.780 (0x4a80) [debug] Name :  "COM5"
+14:13:21.780 (0x4a80) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:13:21.794 (0x4a80) [debug] qml: [trace]activetrue
+14:13:26.052 (0x4a80) [debug] false
+14:13:26.052 (0x4a80) [debug]  openPort is working 
+14:13:27.694 (0x4a80) [debug] false
+14:13:27.694 (0x4a80) [debug]  openPort is working 
+14:13:31.187 (0x4a80) [debug] false
+14:13:31.187 (0x4a80) [debug]  openPort is working 
+14:13:31.216 (0x4a80) [debug] "COM5" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:13:31.299 (0x4a80) [debug] "14:13:31.299 1 frames received, 8 bytes ignored"
+14:13:48.743 (0x4a80) [info ] ----- msAppExit: 273889019.701600, 07:36:20.246509019
+14:13:48.743 (0x4a80) [info ] app running: 27767.310200, 00:00:02.25767
+14:13:48.743 (0x4a80) [info ] app return: 0
+14:13:48.743 (0x4a80) [info ] ----- App exit ------

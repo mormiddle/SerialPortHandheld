@@ -1,0 +1,193 @@
+14:44:57.363 (0x252c) [info ]
+14:44:57.366 (0x252c) [info ] ----- App init ------
+14:44:57.366 (0x252c) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:44:57.367 (0x252c) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/debug/SerialPortDemo.exe
+14:44:57.367 (0x252c) [info ] App path: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo
+14:44:57.367 (0x252c) [info ] Check chinese support: 012汉字abc
+14:44:57.368 (0x252c) [info ] ----- msAppInit: 3128550224.784000, [3]14:52:41.-1479178072
+14:44:57.368 (0x252c) [info ] [trace] --- FuncEntry
+14:44:57.369 (0x252c) [info ] [trace]012����abc 
+14:44:57.369 (0x252c) [info ] qInfo
+14:44:57.370 (0x252c) [info ] qDebug
+14:44:57.370 (0x252c) [info ] qWanging
+14:44:57.371 (0x252c) [info ] QCritical
+14:44:57.371 (0x252c) [info ] call getMs() 1000 times, 0.039600 ms
+14:44:57.378 (0x252c) [info ] 1-1
+14:44:57.379 (0x252c) [info ] 1-2
+14:44:57.379 (0x252c) [info ] 2-1,汉字
+14:44:57.380 (0x252c) [info ] 2-2,汉字
+14:44:57.380 (0x252c) [info ] 1
+14:44:57.381 (0x252c) [info ] 12345678901234
+14:44:57.381 (0x252c) [info ] 12345679020032.0000000000000000
+14:44:57.382 (0x252c) [info ] 12345678901234567168.00000000000000000000000000000000
+14:44:57.387 (0x252c) [debug] SlBase::add( 3 + 4 ) = 7
+14:44:57.387 (0x252c) [debug] SlBase::getTime() = 2023-09-26 14:44:57.387
+14:44:57.388 (0x252c) [info ] [trace] --- FuncExit, 19.1111 ms
+14:44:58.404 (0x252c) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*) in cpp\common\qmlplot.cpp:47
+14:44:58.407 (0x252c) [warn ] Both point size and pixel size set. Using pixel size.
+14:44:58.409 (0x252c) [warn ] Both point size and pixel size set. Using pixel size.
+14:44:58.410 (0x252c) [warn ] Both point size and pixel size set. Using pixel size.
+14:44:58.410 (0x252c) [warn ] Both point size and pixel size set. Using pixel size.
+14:44:59.472 (0x252c) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:44:59.705 (0x252c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:44:59.706 (0x252c) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:45:00.396 (0x252c) [debug] Name :  "COM5"
+14:45:00.398 (0x252c) [debug] Name :  "COM1"
+14:45:00.398 (0x252c) [debug] Name :  "COM2"
+14:45:00.399 (0x252c) [debug] Name :  "COM4"
+14:45:00.490 (0x252c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:45:00.491 (0x252c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:45:00.491 (0x252c) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:45:00.530 (0x252c) [debug] qml: [trace]activetrue
+14:45:03.256 (0x252c) [trace] qml:
+14:45:03.311 (0x252c) [info ] ----- msAppExit: 3128556173.318300, [3]14:52:41.-1479172123
+14:45:03.312 (0x252c) [info ] app running: 5948.534300, 00:00:00.5948
+14:45:03.312 (0x252c) [info ] app return: 0
+14:45:03.313 (0x252c) [info ] ----- App exit ------
+16:30:25.555 (0x36b0) [info ]
+16:30:25.556 (0x36b0) [info ] ----- App init ------
+16:30:25.557 (0x36b0) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:30:25.557 (0x36b0) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/debug/SerialPortDemo.exe
+16:30:25.557 (0x36b0) [info ] App path: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo
+16:30:25.557 (0x36b0) [info ] Check chinese support: 012汉字abc
+16:30:25.558 (0x36b0) [info ] ----- msAppInit: 3134878417.479600, [3]15:03:13.-1473481879
+16:30:25.558 (0x36b0) [info ] [trace] --- FuncEntry
+16:30:25.558 (0x36b0) [info ] [trace]012����abc 
+16:30:25.559 (0x36b0) [info ] qInfo
+16:30:25.559 (0x36b0) [info ] qDebug
+16:30:25.559 (0x36b0) [info ] qWanging
+16:30:25.559 (0x36b0) [info ] QCritical
+16:30:25.560 (0x36b0) [info ] call getMs() 1000 times, 0.027200 ms
+16:30:25.564 (0x36b0) [info ] 1-1
+16:30:25.564 (0x36b0) [info ] 1-2
+16:30:25.564 (0x36b0) [info ] 2-1,汉字
+16:30:25.564 (0x36b0) [info ] 2-2,汉字
+16:30:25.564 (0x36b0) [info ] 1
+16:30:25.565 (0x36b0) [info ] 12345678901234
+16:30:25.565 (0x36b0) [info ] 12345679020032.0000000000000000
+16:30:25.565 (0x36b0) [info ] 12345678901234567168.00000000000000000000000000000000
+16:30:25.569 (0x36b0) [debug] SlBase::add( 3 + 4 ) = 7
+16:30:25.569 (0x36b0) [debug] SlBase::getTime() = 2023-09-26 16:30:25.569
+16:30:25.569 (0x36b0) [info ] [trace] --- FuncExit, 10.8228 ms
+16:30:26.095 (0x36b0) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*) in cpp\common\qmlplot.cpp:47
+16:30:26.097 (0x36b0) [warn ] Both point size and pixel size set. Using pixel size.
+16:30:26.098 (0x36b0) [warn ] Both point size and pixel size set. Using pixel size.
+16:30:26.099 (0x36b0) [warn ] Both point size and pixel size set. Using pixel size.
+16:30:26.099 (0x36b0) [warn ] Both point size and pixel size set. Using pixel size.
+16:30:26.507 (0x36b0) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:30:26.629 (0x36b0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:30:26.629 (0x36b0) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:30:26.829 (0x36b0) [debug] Name :  "COM5"
+16:30:26.830 (0x36b0) [debug] Name :  "COM1"
+16:30:26.830 (0x36b0) [debug] Name :  "COM2"
+16:30:26.831 (0x36b0) [debug] Name :  "COM4"
+16:30:26.891 (0x36b0) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:30:26.892 (0x36b0) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:30:26.893 (0x36b0) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:30:26.915 (0x36b0) [debug] qml: [trace]activetrue
+16:31:20.925 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.925 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.925 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.926 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.928 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.928 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.930 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mousePressEvent(class QMouseEvent *)
+16:31:20.944 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.945 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.950 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:20.954 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.956 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.961 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:20.964 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.965 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.967 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:20.970 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.970 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.977 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.978 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.981 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:20.985 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.986 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.988 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:20.991 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.992 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.997 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:20.998 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.000 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.006 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.007 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.009 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.012 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.013 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.019 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.019 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.026 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.029 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.029 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.031 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.034 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.035 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.041 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.042 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.047 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.049 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.050 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.051 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.053 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.053 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.058 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.058 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.062 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.066 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.068 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.072 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.075 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.076 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.077 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.080 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.080 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.086 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.089 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.092 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.097 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.097 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.099 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.102 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.102 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.109 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.110 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.113 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.116 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.117 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.123 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.124 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.140 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.144 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.144 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.148 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.150 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.150 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.155 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.156 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.162 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.165 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.167 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.172 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.175 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.176 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.177 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.180 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.181 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.186 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.188 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.193 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseMoveEvent(class QMouseEvent *)
+16:31:21.195 (0x36b0) [debug] void __cdecl DDuiBasePlotItem::mouseReleaseEvent(class QMouseEvent *)
+16:31:21.197 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.198 (0x36b0) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.202 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:21.202 (0x2e28) [debug] void __cdecl QCPItemTracer::updatePosition(void) graph has no data
+16:31:22.042 (0x36b0) [trace] qml:
+16:31:22.081 (0x36b0) [info ] ----- msAppExit: 3134934942.815600, [3]15:03:19.-1473431354
+16:31:22.083 (0x36b0) [info ] app running: 56525.336000, 00:00:05.51525
+16:31:22.084 (0x36b0) [info ] app return: 0
+16:31:22.085 (0x36b0) [info ] ----- App exit ------

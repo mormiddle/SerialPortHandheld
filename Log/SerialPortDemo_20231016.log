@@ -1,0 +1,46 @@
+16:56:30.045 (0x4590) [info ]
+16:56:30.048 (0x4590) [info ] ----- App init ------
+16:56:30.048 (0x4590) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+16:56:30.048 (0x4590) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/Release/SerialPortDemo.exe
+16:56:30.049 (0x4590) [info ] App path: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld
+16:56:30.049 (0x4590) [info ] Check chinese support: 012汉字abc
+16:56:30.049 (0x4590) [info ] ----- msAppInit: 1236933432.247800, [1]10:20:56.1113277432
+16:56:30.050 (0x4590) [info ] [trace] --- FuncEntry
+16:56:30.050 (0x4590) [info ] [trace]012汉字abc 
+16:56:30.050 (0x4590) [info ] qInfo
+16:56:30.050 (0x4590) [info ] qDebug
+16:56:30.050 (0x4590) [info ] qWanging
+16:56:30.051 (0x4590) [info ] QCritical
+16:56:30.051 (0x4590) [info ] call getMs() 1000 times, 0.016700 ms
+16:56:30.055 (0x4590) [info ] 1-1
+16:56:30.055 (0x4590) [info ] 1-2
+16:56:30.055 (0x4590) [info ] 2-1,汉字
+16:56:30.055 (0x4590) [info ] 2-2,汉字
+16:56:30.055 (0x4590) [info ] 1
+16:56:30.056 (0x4590) [info ] 12345678901234
+16:56:30.056 (0x4590) [info ] 12345679020032.0000000000000000
+16:56:30.056 (0x4590) [info ] 12345678901234567168.00000000000000000000000000000000
+16:56:30.060 (0x4590) [debug] SlBase::add( 3 + 4 ) = 7
+16:56:30.060 (0x4590) [debug] SlBase::getTime() = 2023-10-16 16:56:30.060
+16:56:30.061 (0x4590) [info ] [trace] --- FuncExit, 11.1611 ms
+16:56:30.833 (0x4590) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*)
+16:56:30.834 (0x4590) [warn ] Both point size and pixel size set. Using pixel size.
+16:56:30.835 (0x4590) [warn ] Both point size and pixel size set. Using pixel size.
+16:56:30.835 (0x4590) [warn ] Both point size and pixel size set. Using pixel size.
+16:56:30.835 (0x4590) [warn ] Both point size and pixel size set. Using pixel size.
+16:56:31.106 (0x4590) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+16:56:31.179 (0x4590) [warn ] file:///E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/Release/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+16:56:31.179 (0x4590) [warn ] file:///E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/Release/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+16:56:31.431 (0x4590) [debug] Name :  "COM5"
+16:56:31.431 (0x4590) [debug] Name :  "COM1"
+16:56:31.431 (0x4590) [debug] Name :  "COM2"
+16:56:31.431 (0x4590) [debug] Name :  "COM4"
+16:56:31.445 (0x4590) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:56:31.446 (0x4590) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:56:31.446 (0x4590) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+16:56:31.460 (0x4590) [debug] qml: [trace]activetrue
+16:56:34.366 (0x4590) [trace] qml:
+16:56:34.388 (0x4590) [info ] ----- msAppExit: 1236937775.299600, [1]10:20:56.1113281775
+16:56:34.389 (0x4590) [info ] app running: 4343.051800, 00:00:00.4343
+16:56:34.389 (0x4590) [info ] app return: 0
+16:56:34.390 (0x4590) [info ] ----- App exit ------

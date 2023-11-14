@@ -1,0 +1,154 @@
+12:59:54.283 (0x7900) [info ]
+12:59:54.288 (0x7900) [info ] ----- App init ------
+12:59:54.288 (0x7900) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+12:59:54.289 (0x7900) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/debug/SerialPortDemo.exe
+12:59:54.289 (0x7900) [info ] App path: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo
+12:59:54.289 (0x7900) [info ] Check chinese support: 012汉字abc
+12:59:54.290 (0x7900) [info ] ----- msAppInit: 3035844349.973000, [3]12:18:13.-1562615947
+12:59:54.290 (0x7900) [info ] [trace] --- FuncEntry
+12:59:54.291 (0x7900) [info ] [trace]012汉字abc 
+12:59:54.291 (0x7900) [info ] qInfo
+12:59:54.291 (0x7900) [info ] qDebug
+12:59:54.292 (0x7900) [info ] qWanging
+12:59:54.292 (0x7900) [info ] QCritical
+12:59:54.292 (0x7900) [info ] call getMs() 1000 times, 0.027000 ms
+12:59:54.298 (0x7900) [info ] 1-1
+12:59:54.298 (0x7900) [info ] 1-2
+12:59:54.298 (0x7900) [info ] 2-1,汉字
+12:59:54.298 (0x7900) [info ] 2-2,汉字
+12:59:54.299 (0x7900) [info ] 1
+12:59:54.299 (0x7900) [info ] 12345678901234
+12:59:54.299 (0x7900) [info ] 12345679020032.0000000000000000
+12:59:54.300 (0x7900) [info ] 12345678901234567168.00000000000000000000000000000000
+12:59:54.304 (0x7900) [debug] SlBase::add( 3 + 4 ) = 7
+12:59:54.304 (0x7900) [debug] SlBase::getTime() = 2023-09-25 12:59:54.304
+12:59:54.305 (0x7900) [info ] [trace] --- FuncExit, 14.2497 ms
+12:59:55.162 (0x7900) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*) in cpp\common\qmlplot.cpp:47
+12:59:55.165 (0x7900) [warn ] Both point size and pixel size set. Using pixel size.
+12:59:55.167 (0x7900) [warn ] Both point size and pixel size set. Using pixel size.
+12:59:55.167 (0x7900) [warn ] Both point size and pixel size set. Using pixel size.
+12:59:55.168 (0x7900) [warn ] Both point size and pixel size set. Using pixel size.
+12:59:55.568 (0x7900) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+12:59:55.721 (0x7900) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+12:59:55.722 (0x7900) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+12:59:55.978 (0x7900) [debug] Name :  "COM5"
+12:59:55.979 (0x7900) [debug] Name :  "COM1"
+12:59:55.979 (0x7900) [debug] Name :  "COM2"
+12:59:55.979 (0x7900) [debug] Name :  "COM4"
+12:59:56.037 (0x7900) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+12:59:56.037 (0x7900) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+12:59:56.038 (0x7900) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+12:59:56.057 (0x7900) [debug] qml: [trace]activetrue
+13:00:00.659 (0x7900) [debug] qml: [trace]activefalse
+13:00:19.076 (0x7900) [debug] qml: [trace]activetrue
+13:04:15.240 (0x7900) [debug] qml: [trace]activefalse
+13:04:17.719 (0x7900) [debug] qml: [trace]activetrue
+13:04:18.960 (0x7900) [trace] qml:
+13:04:19.003 (0x7900) [info ] ----- msAppExit: 3036109069.647300, [3]12:18:39.-1562377227
+13:04:19.004 (0x7900) [info ] app running: 264719.674300, 00:00:26.238719
+13:04:19.004 (0x7900) [info ] app return: 0
+13:04:19.005 (0x7900) [info ] ----- App exit ------
+14:49:59.255 (0x70bc) [info ]
+14:49:59.257 (0x70bc) [info ] ----- App init ------
+14:49:59.257 (0x70bc) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:49:59.257 (0x70bc) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/debug/SerialPortDemo.exe
+14:49:59.258 (0x70bc) [info ] App path: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo
+14:49:59.258 (0x70bc) [info ] Check chinese support: 012汉字abc
+14:49:59.258 (0x70bc) [info ] ----- msAppInit: 3042449322.621200, [3]12:29:13.-1556670974
+14:49:59.259 (0x70bc) [info ] [trace] --- FuncEntry
+14:49:59.259 (0x70bc) [info ] [trace]012汉字abc 
+14:49:59.259 (0x70bc) [info ] qInfo
+14:49:59.259 (0x70bc) [info ] qDebug
+14:49:59.260 (0x70bc) [info ] qWanging
+14:49:59.260 (0x70bc) [info ] QCritical
+14:49:59.260 (0x70bc) [info ] call getMs() 1000 times, 0.026600 ms
+14:49:59.265 (0x70bc) [info ] 1-1
+14:49:59.265 (0x70bc) [info ] 1-2
+14:49:59.265 (0x70bc) [info ] 2-1,汉字
+14:49:59.266 (0x70bc) [info ] 2-2,汉字
+14:49:59.266 (0x70bc) [info ] 1
+14:49:59.266 (0x70bc) [info ] 12345678901234
+14:49:59.267 (0x70bc) [info ] 12345679020032.0000000000000000
+14:49:59.267 (0x70bc) [info ] 12345678901234567168.00000000000000000000000000000000
+14:49:59.271 (0x70bc) [debug] SlBase::add( 3 + 4 ) = 7
+14:49:59.271 (0x70bc) [debug] SlBase::getTime() = 2023-09-25 14:49:59.271
+14:49:59.271 (0x70bc) [info ] [trace] --- FuncExit, 12.4364 ms
+14:49:59.789 (0x70bc) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*) in cpp\common\qmlplot.cpp:47
+14:49:59.791 (0x70bc) [warn ] Both point size and pixel size set. Using pixel size.
+14:49:59.792 (0x70bc) [warn ] Both point size and pixel size set. Using pixel size.
+14:49:59.792 (0x70bc) [warn ] Both point size and pixel size set. Using pixel size.
+14:49:59.793 (0x70bc) [warn ] Both point size and pixel size set. Using pixel size.
+14:50:00.156 (0x70bc) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:50:00.261 (0x70bc) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:50:00.262 (0x70bc) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:50:00.586 (0x70bc) [debug] Name :  "COM5"
+14:50:00.587 (0x70bc) [debug] Name :  "COM3"
+14:50:00.587 (0x70bc) [debug] Name :  "COM1"
+14:50:00.588 (0x70bc) [debug] Name :  "COM2"
+14:50:00.588 (0x70bc) [debug] Name :  "COM4"
+14:50:00.640 (0x70bc) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:50:00.640 (0x70bc) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:50:00.640 (0x70bc) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:50:00.657 (0x70bc) [debug] qml: [trace]activetrue
+14:50:04.082 (0x70bc) [debug] false
+14:50:04.083 (0x70bc) [debug]  openPort is working 
+14:50:04.085 (0x70bc) [debug] "COM3" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+14:50:04.123 (0x70bc) [debug] "14:50:4.123 1 frames received, 6 bytes ignored"
+14:50:09.212 (0x70bc) [debug] true
+14:50:09.213 (0x70bc) [debug]  openPort is working 
+14:50:09.215 (0x70bc) [debug] qml: get result:false
+14:50:10.160 (0x70bc) [trace] qml:
+14:50:10.194 (0x70bc) [info ] ----- msAppExit: 3042460260.346900, [3]12:29:14.-1556661036
+14:50:10.194 (0x70bc) [info ] app running: 10937.725700, 00:00:01.9937
+14:50:10.195 (0x70bc) [info ] app return: 0
+14:50:10.195 (0x70bc) [info ] ----- App exit ------
+14:58:19.791 (0x4350) [info ]
+14:58:19.792 (0x4350) [info ] ----- App init ------
+14:58:19.792 (0x4350) [info ] SerialPortDemo V1.0.0.0, compiled at Wed Apr 12 09:22:44 2023
+14:58:19.793 (0x4350) [info ] Exe file: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo/debug/SerialPortDemo.exe
+14:58:19.793 (0x4350) [info ] App path: E:/BaiduSyncdisk/Project/Code/eddy/SerialPortHandheld/SerialPortDemo
+14:58:19.793 (0x4350) [info ] Check chinese support: 012汉字abc
+14:58:19.793 (0x4350) [info ] ----- msAppInit: 3042949857.473400, [3]12:30:03.-1556220439
+14:58:19.794 (0x4350) [info ] [trace] --- FuncEntry
+14:58:19.794 (0x4350) [info ] [trace]012汉字abc 
+14:58:19.795 (0x4350) [info ] qInfo
+14:58:19.795 (0x4350) [info ] qDebug
+14:58:19.795 (0x4350) [info ] qWanging
+14:58:19.796 (0x4350) [info ] QCritical
+14:58:19.796 (0x4350) [info ] call getMs() 1000 times, 0.027100 ms
+14:58:19.800 (0x4350) [info ] 1-1
+14:58:19.801 (0x4350) [info ] 1-2
+14:58:19.801 (0x4350) [info ] 2-1,汉字
+14:58:19.801 (0x4350) [info ] 2-2,汉字
+14:58:19.802 (0x4350) [info ] 1
+14:58:19.802 (0x4350) [info ] 12345678901234
+14:58:19.802 (0x4350) [info ] 12345679020032.0000000000000000
+14:58:19.803 (0x4350) [info ] 12345678901234567168.00000000000000000000000000000000
+14:58:19.806 (0x4350) [debug] SlBase::add( 3 + 4 ) = 7
+14:58:19.806 (0x4350) [debug] SlBase::getTime() = 2023-09-25 14:58:19.806
+14:58:19.807 (0x4350) [info ] [trace] --- FuncExit, 12.5342 ms
+14:58:20.321 (0x4350) [warn ] QObject::connect: No such slot DDuiBasePlotItem::mousePressEvent(QMouseEvent*) in cpp\common\qmlplot.cpp:47
+14:58:20.323 (0x4350) [warn ] Both point size and pixel size set. Using pixel size.
+14:58:20.324 (0x4350) [warn ] Both point size and pixel size set. Using pixel size.
+14:58:20.325 (0x4350) [warn ] Both point size and pixel size set. Using pixel size.
+14:58:20.326 (0x4350) [warn ] Both point size and pixel size set. Using pixel size.
+14:58:20.691 (0x4350) [warn ] qrc:/qml/BottomMain.qml:12:5: QML Rectangle: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+14:58:20.799 (0x4350) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: Failed to initialize QSettings instance. Status code is: 1
+14:58:20.799 (0x4350) [warn ] file:///D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/qml/QtQuick/Dialogs/DefaultFileDialog.qml:102:33: QML Settings: The following application identifiers have not been set: QVector("organizationName", "organizationDomain")
+14:58:21.129 (0x4350) [debug] Name :  "COM5"
+14:58:21.130 (0x4350) [debug] Name :  "COM3"
+14:58:21.131 (0x4350) [debug] Name :  "COM1"
+14:58:21.131 (0x4350) [debug] Name :  "COM2"
+14:58:21.132 (0x4350) [debug] Name :  "COM4"
+14:58:21.179 (0x4350) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:58:21.179 (0x4350) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:58:21.180 (0x4350) [warn ] qrc:/qml/basic/ComboBox.qml:9: ReferenceError: combobox_implicit_width is not defined
+14:58:21.197 (0x4350) [debug] qml: [trace]activetrue
+14:58:23.542 (0x4350) [debug] false
+14:58:23.543 (0x4350) [debug]  openPort is working 
+14:58:23.545 (0x4350) [debug] "COM3" 115200 QSerialPort::Data8 QSerialPort::NoParity QSerialPort::OneStop
+15:02:01.642 (0x4350) [trace] qml:
+15:02:01.685 (0x4350) [info ] ----- msAppExit: 3043171751.785700, [3]12:30:25.-1556020545
+15:02:01.685 (0x4350) [info ] app running: 221894.312300, 00:00:22.199894
+15:02:01.686 (0x4350) [info ] app return: 0
+15:02:01.686 (0x4350) [info ] ----- App exit ------
