@@ -179,7 +179,7 @@ void CustomPlotItem::upAisleData()
     if( t < checkedData.count()  )
     {
         UImag = checkedData[t][m_aisle];
-        if (abs(UImag) > 20) {
+        if (abs(UImag) > 30) {
             UImag = 0;
         }
 

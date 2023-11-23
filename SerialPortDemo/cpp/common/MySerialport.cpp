@@ -107,7 +107,7 @@ void MySerialPort::readData_slot()
                 tmpImage = toIntData(buffer[i + 2], buffer[i + 3]);
                 tmpReal = toIntData(buffer[i + 0], buffer[i + 1]);
 //                tmp = sqrt(tmpImage * tmpImage + tmpReal * tmpReal);
-                squareRootData.append(tmpReal);
+                squareRootData.append(tmpReal*1.5);
             }
 
             //判断是否进行了标定
